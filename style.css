@@ -10,12 +10,16 @@ body {
 
 .top {
     display: flex;
-    background-color: black;
     flex-direction: row-reverse;
     align-items: end;
     gap: 3px;
-
+    height: 10vh;
+    position: fixed;
+    z-index: 1;
+    top: 7px;
+    right: 7px;
 }
+
 
 .topbutton {
     color: white;
@@ -24,13 +28,14 @@ body {
     border-radius: 7px;
     margin: 9px 1px 9px;
     padding: 5px;
+    font-size: xx-small;
 }
 
 .gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 30px;
+    margin: 45px;
 
 }
 
