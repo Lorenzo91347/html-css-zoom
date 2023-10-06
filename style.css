@@ -1,3 +1,7 @@
+/*
+format
+*/
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +10,16 @@
 
 body {
     background-color: black;
+    color: white;
 }
+
+/*
+/format
+*/
+
+/*
+Header
+*/
 
 .top {
     display: flex;
@@ -22,14 +35,23 @@ body {
 
 
 .topbutton {
-    color: white;
+
     border: none;
     background-color: grey;
     border-radius: 7px;
     margin: 9px 1px 9px;
     padding: 5px;
     font-size: xx-small;
+    color: white;
 }
+
+/*
+/Header
+*/
+
+/*
+Main
+*/
 
 .gallery {
     display: flex;
@@ -50,9 +72,75 @@ img {
 }
 
 p {
-    color: white;
+
     position: absolute;
     bottom: 10px;
     left: 8px;
     background-color: rgba(0, 0, 0, .5);
 }
+
+/*
+/main
+*/
+
+/*
+Footer
+*/
+
+footer {
+    height: 80px;
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer div button {
+    background-color: #222222;
+    color: white;
+    border: none
+}
+
+.footer-flex {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-left,
+.footer-right {
+    width: 15%;
+}
+
+.footer-left {
+    padding-left: 10px;
+}
+
+.footer-right {
+    display: flex;
+    justify-content: right;
+    height: 100%;
+}
+
+.btn.footer-tool i {
+    font-size: 22px;
+    margin-bottom: 5px;
+
+}
+
+.btn.chevron i {
+    font-size: 10px;
+}
+
+.button-container.active .footer-tool i {
+    color: #4bc800;
+}
+
+footer .btn.btn-secondary {
+    padding: 20px;
+    color: #ff0000;
+    background-color: rgb(78, 78, 78);
+}
+
+/*
+/Footer
+*/

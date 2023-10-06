@@ -1,0 +1,1 @@
+This is an exercise about the use of Viewport Sizing.
